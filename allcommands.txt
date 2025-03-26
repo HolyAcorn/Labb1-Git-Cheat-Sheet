@@ -1,0 +1,45 @@
+git push
+git commit -m
+git status
+git rm -r
+git log
+git init
+git clone <repo-url>
+git checkout
+git checkout <branch>
+git checkout -b <branch>
+git add <fil>
+git add .
+git branch
+git branch <name>
+git branch -d <branch>
+git branch -D <branch>
+git stash
+git stash clear
+git show <commit-hash>
+git merge <branch>
+git remote -v
+git remote add origin <url>
+git push origin <branch>
+git push -u origin <branch>
+git fetch
+git fetch origin
+git remote remove origin
+git tag
+git tag <tag-namn>
+git tag -a <tag-namn>
+git push origin --tags
+git checkout <tag-namn>
+git cherry-pick <commit-hash>
+git rebase <branch>
+git bisect start
+git mv [existing-path] [new-path]
+git reflog
+git rebase -i HEAD~5
+git worktree add ../ny-mapp branch-namn
+git filter-branch --tree-filter 'rm -rf hemliga-filer/' HEAD
+git bundle create backup.bundle --all
+git pull
+git config
+git clean
+git reset
