@@ -31,6 +31,10 @@
 		{
 			"command" : "git rebase -i HEAD~5 ",
 			"explaination" : "Interaktiv redigerare som tillåter dig att ändra ordning, redigera eller ta bort de senaste 5 brancherna."
+		},
+		{
+			"command" : "git worktree add ../<folder name> <branch>",
+			"explaination" : "Lägger till en ny worktree i ditt repo."
 		}
 	]
 }
