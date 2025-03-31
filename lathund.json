@@ -51,6 +51,10 @@
 		{
 			"command" : "git config",
 			"explaination" : "Konfigurear Git-inställningar"
+		},
+		{
+			"command" : "git clean",
+			"explaination" : "Tar bort oanvända filer från arbetskatalogen."
 		}
 	]
 }
