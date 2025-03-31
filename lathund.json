@@ -12,5 +12,9 @@
 		"command" : "git cherry-pick <commit-hash>"
 		"explaination" : "Applicerar en specifik commit på din nuvvarande branch."
 		},
+		{
+		"command" : "git rebase <branch>",
+		"explaination" : "Tar förändringarna på din nuvvarande branch och håller på dem, sedan uppdateras branchen med ändringar från den angivna branchen, och sedan applicerar ändringarna från din nuvvarande branch."
+		},
 	]
 }
