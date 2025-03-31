@@ -47,6 +47,10 @@
 		{
 			"command" : "git pull",
 			"explaination" : "Hämtar senaste ändringarna från repot."
+		},
+		{
+			"command" : "git config",
+			"explaination" : "Konfigurear Git-inställningar"
 		}
 	]
 }
