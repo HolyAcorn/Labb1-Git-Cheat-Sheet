@@ -39,6 +39,10 @@
 		{
 			"command" : "git filter-branch --tree-filter 'rm -rf hemliga-filer/' HEAD",
 			"explaination" : "Tar bort en fil från hela Git-historiken."
+		},
+		{
+			"command" : "git bundle create backup.bundle --all",
+			"explaination" : "Skapar en backup-fil av hela repositoryt."
 		}
 	]
 }
