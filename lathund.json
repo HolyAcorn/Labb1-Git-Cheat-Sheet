@@ -35,6 +35,10 @@
 		{
 			"command" : "git worktree add ../<folder name> <branch>",
 			"explaination" : "Lägger till en ny worktree i ditt repo."
+		},
+		{
+			"command" : "git filter-branch --tree-filter 'rm -rf hemliga-filer/' HEAD",
+			"explaination" : "Tar bort en fil från hela Git-historiken."
 		}
 	]
 }
