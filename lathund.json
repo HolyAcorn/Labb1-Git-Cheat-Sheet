@@ -8,5 +8,9 @@
 		"command" : "git checkout <tag-namn>"
 		"explaination" : "Byter till en specifik tag"
 		},
+		{
+		"command" : "git cherry-pick <commit-hash>"
+		"explaination" : "Applicerar en specifik commit på din nuvvarande branch."
+		},
 	]
 }
