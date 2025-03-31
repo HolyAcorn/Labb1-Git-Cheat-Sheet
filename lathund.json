@@ -19,6 +19,10 @@
 		{
 			"command" : "git bisect start",
 			"explaination" : "Börjar en binär sökning för att hitta en bug-introducerande commit."
+		},
+		{
+			"command" : "git mv [existing-path] [new-path]",
+			"explaination" : "Flyttar eller kopierar en fil eller mapp."
 		}
 	]
 }
