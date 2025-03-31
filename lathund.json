@@ -1,5 +1,8 @@
 {
 	[
-	
+		{
+		"command" : "git push origin --tags"
+		"explaination" : "Skickar upp referenser med en specifik tag"
+		}
 	]
 }
