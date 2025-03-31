@@ -55,6 +55,10 @@
 		{
 			"command" : "git clean",
 			"explaination" : "Tar bort oanvända filer från arbetskatalogen."
+		},
+		{
+			"command" : "git reset",
+			"explaination" : "Återställer ändringar i arbetskatalogen eller staging-området."
 		}
 	]
 }
