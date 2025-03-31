@@ -43,6 +43,10 @@
 		{
 			"command" : "git bundle create backup.bundle --all",
 			"explaination" : "Skapar en backup-fil av hela repositoryt."
+		},
+		{
+			"command" : "git pull",
+			"explaination" : "Hämtar senaste ändringarna från repot."
 		}
 	]
 }
