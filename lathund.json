@@ -6,3 +6,7 @@
   "command": "git stash",
   "explanation": "Sparar undan ändringar temporärt."
 }
+{
+  "command": "git stash clear",
+  "explanation": "Tar bort alla sparade stashar."
+}
