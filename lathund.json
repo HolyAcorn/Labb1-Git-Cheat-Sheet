@@ -54,3 +54,7 @@
   "command": "git tag <tag-namn>",
   "explanation": "Skapar en ny tagg vid den senaste committen."
 }
+{
+  "command": "git tag -a <tag-namn>",
+  "explanation": "Skapar en annoterad tagg."
+}
