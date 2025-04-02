@@ -1,1 +1,64 @@
+<<<<<<< HEAD
 
+=======
+{
+  "command": "git branch -D <branch>",
+  "explanation": "Tvingar borttagning av en branch."
+}
+{
+  "command": "git stash",
+  "explanation": "Sparar undan ändringar temporärt."
+}
+{
+  "command": "git stash clear",
+  "explanation": "Tar bort alla sparade stashar."
+}
+{
+  "command": "git show <commit-hash>",
+  "explanation": "Visar detaljer om en specifik commit."
+}
+{
+  "command": "git merge <branch>",
+  "explanation": "Slår ihop en annan branch med den aktuella."
+}
+{
+  "command": "git remote -v",
+  "explanation": "Visar länkade fjärr-repositories."
+}
+{
+  "command": "git remote add origin <url>",
+  "explanation": "Länkar ett lokalt repository till en fjärrserver."
+}
+{
+  "command": "git push origin <branch>",
+  "explanation": "Skickar upp ändringar till en specifik branch på fjärr-repot."
+}
+{
+  "command": "git push -u origin <branch>",
+  "explanation": "Skickar upp en lokal branch till fjärrrepositoryt och sätter den som 'upstream', vilket gör att du i framtiden kan använda enklare kommandon som 'git push' eller 'git pull' utan att behöva ange branchens namn."
+}
+{
+  "command": "git fetch",
+  "explanation": "Hämtar uppdateringar från fjärr-repositoryt."
+}
+{
+  "command": "git fetch origin",
+  "explanation": "Hämtar uppdateringar från fjärr-repot men mergar inte."
+}
+{
+  "command": "git remote remove origin",
+  "explanation": "Tar bort kopplingen till fjärr-repositoryt."
+}
+{
+  "command": "git tag",
+  "explanation": "Visar alla taggar i repositoryt."
+}
+{
+  "command": "git tag <tag-namn>",
+  "explanation": "Skapar en ny tagg vid den senaste committen."
+}
+{
+  "command": "git tag -a <tag-namn>",
+  "explanation": "Skapar en annoterad tagg."
+}
+>>>>>>> origin/andreas-dev
