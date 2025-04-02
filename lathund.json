@@ -38,3 +38,7 @@
   "command": "git fetch",
   "explanation": "Hämtar uppdateringar från fjärr-repositoryt."
 }
+{
+  "command": "git fetch origin",
+  "explanation": "Hämtar uppdateringar från fjärr-repot men mergar inte."
+}
