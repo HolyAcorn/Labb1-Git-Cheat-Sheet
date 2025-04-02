@@ -10,3 +10,7 @@
   "command": "git stash clear",
   "explanation": "Tar bort alla sparade stashar."
 }
+{
+  "command": "git show <commit-hash>",
+  "explanation": "Visar detaljer om en specifik commit."
+}
