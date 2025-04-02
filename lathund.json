@@ -18,3 +18,7 @@
   "command": "git merge <branch>",
   "explanation": "Slår ihop en annan branch med den aktuella."
 }
+{
+  "command": "git remote -v",
+  "explanation": "Visar länkade fjärr-repositories."
+}
