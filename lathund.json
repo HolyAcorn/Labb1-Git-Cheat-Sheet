@@ -30,3 +30,7 @@
   "command": "git push origin <branch>",
   "explanation": "Skickar upp ändringar till en specifik branch på fjärr-repot."
 }
+{
+  "command": "git push -u origin <branch>",
+  "explanation": "Skickar upp en lokal branch till fjärrrepositoryt och sätter den som 'upstream', vilket gör att du i framtiden kan använda enklare kommandon som 'git push' eller 'git pull' utan att behöva ange branchens namn."
+}
