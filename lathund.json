@@ -2,3 +2,7 @@
   "command": "git branch -D <branch>",
   "explanation": "Tvingar borttagning av en branch."
 }
+{
+  "command": "git stash",
+  "explanation": "Sparar undan ändringar temporärt."
+}
