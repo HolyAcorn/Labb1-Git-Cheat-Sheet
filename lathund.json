@@ -50,3 +50,7 @@
   "command": "git tag",
   "explanation": "Visar alla taggar i repositoryt."
 }
+{
+  "command": "git tag <tag-namn>",
+  "explanation": "Skapar en ny tagg vid den senaste committen."
+}
