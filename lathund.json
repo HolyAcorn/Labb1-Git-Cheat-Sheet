@@ -46,3 +46,7 @@
   "command": "git remote remove origin",
   "explanation": "Tar bort kopplingen till fjärr-repositoryt."
 }
+{
+  "command": "git tag",
+  "explanation": "Visar alla taggar i repositoryt."
+}
