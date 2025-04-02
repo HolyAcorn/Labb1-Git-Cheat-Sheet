@@ -1,5 +1,3 @@
-{
-	[
 		{
 		"command" : "git push origin --tags",
 		"explaination" : "Skickar upp referenser med en specifik tag"
@@ -60,5 +58,3 @@
 			"command" : "git reset",
 			"explaination" : "Återställer ändringar i arbetskatalogen eller staging-området."
 		}
-	]
-}
