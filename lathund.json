@@ -26,3 +26,7 @@
   "command": "git remote add origin <url>",
   "explanation": "Länkar ett lokalt repository till en fjärrserver."
 }
+{
+  "command": "git push origin <branch>",
+  "explanation": "Skickar upp ändringar till en specifik branch på fjärr-repot."
+}
