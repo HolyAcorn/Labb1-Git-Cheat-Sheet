@@ -22,3 +22,7 @@
   "command": "git remote -v",
   "explanation": "Visar länkade fjärr-repositories."
 }
+{
+  "command": "git remote add origin <url>",
+  "explanation": "Länkar ett lokalt repository till en fjärrserver."
+}
