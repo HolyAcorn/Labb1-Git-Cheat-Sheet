@@ -42,3 +42,7 @@
   "command": "git fetch origin",
   "explanation": "Hämtar uppdateringar från fjärr-repot men mergar inte."
 }
+{
+  "command": "git remote remove origin",
+  "explanation": "Tar bort kopplingen till fjärr-repositoryt."
+}
