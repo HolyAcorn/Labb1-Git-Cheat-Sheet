@@ -14,3 +14,7 @@
   "command": "git show <commit-hash>",
   "explanation": "Visar detaljer om en specifik commit."
 }
+{
+  "command": "git merge <branch>",
+  "explanation": "Slår ihop en annan branch med den aktuella."
+}
