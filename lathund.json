@@ -1,3 +1,63 @@
+		{
+		"command" : "git push origin --tags",
+		"explaination" : "Skickar upp referenser med en specifik tag"
+		},
+		{
+		"command" : "git checkout <tag-namn>",
+		"explaination" : "Byter till en specifik tag"
+		},
+		{
+		"command" : "git cherry-pick <commit-hash>",
+		"explaination" : "Applicerar en specifik commit på din nuvvarande branch."
+		},
+		{
+		"command" : "git rebase <branch>",
+		"explaination" : "Tar förändringarna på din nuvvarande branch och håller på dem, sedan uppdateras branchen med ändringar från den angivna branchen, och sedan applicerar ändringarna från din nuvvarande branch."
+		},
+		{
+			"command" : "git bisect start",
+			"explaination" : "Börjar en binär sökning för att hitta en bug-introducerande commit."
+		},
+		{
+			"command" : "git mv [existing-path] [new-path]",
+			"explaination" : "Flyttar eller kopierar en fil eller mapp."
+		},
+		{
+			"command" : "git reflog",
+			"explaination" : "Visar en historik på allting som gjorts i den nuvvarande branchen."
+		},
+		{
+			"command" : "git rebase -i HEAD~5 ",
+			"explaination" : "Interaktiv redigerare som tillåter dig att ändra ordning, redigera eller ta bort de senaste 5 brancherna."
+		},
+		{
+			"command" : "git worktree add ../<folder name> <branch>",
+			"explaination" : "Lägger till en ny worktree i ditt repo."
+		},
+		{
+			"command" : "git filter-branch --tree-filter 'rm -rf hemliga-filer/' HEAD",
+			"explaination" : "Tar bort en fil från hela Git-historiken."
+		},
+		{
+			"command" : "git bundle create backup.bundle --all",
+			"explaination" : "Skapar en backup-fil av hela repositoryt."
+		},
+		{
+			"command" : "git pull",
+			"explaination" : "Hämtar senaste ändringarna från repot."
+		},
+		{
+			"command" : "git config",
+			"explaination" : "Konfigurear Git-inställningar"
+		},
+		{
+			"command" : "git clean",
+			"explaination" : "Tar bort oanvända filer från arbetskatalogen."
+		},
+		{
+			"command" : "git reset",
+			"explaination" : "Återställer ändringar i arbetskatalogen eller staging-området."
+		}
 {
   "command": "git branch -D <branch>",
   "explanation": "Tvingar borttagning av en branch."
