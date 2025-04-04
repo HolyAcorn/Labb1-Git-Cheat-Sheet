@@ -1,1 +1,199 @@
+{
+	"commands":   [
 
+		{
+		"command" : "git push",
+		"explaination" : "Skickar upp ändringar till det fjärranslutna repositoryt."
+		},
+
+		{
+		"command" : "git commit -m",
+		"explaination" : "Skapar en commit med ett meddelande."
+		},
+
+		{
+		"command" : "git status",
+		"explaination" : "Visar statusen för arbetskatalogen och staging-området."
+		},
+
+		{
+		"command" : "git rm -r",
+		"explaination" : "Tar bort filer eller kataloger från repositoryt."
+		},
+
+		{
+		"command" : "git log",
+		"explaination" : "Visar commit-historiken för repositoryt."
+		},
+
+		{
+		"command" : "git init",
+		"explaination" : "Initierar ett nytt Git-repository."
+		},
+
+		{
+		"command" : "git clone <repo-url>",
+		"explaination" : "Klonar ett befintligt repository från en URL."
+		},
+
+		{
+		"command" : "git checkout",
+		"explaination" : "Byter till en annan commit eller gren."
+		},
+
+		{
+		"command" : "git checkout <branch>",
+		"explaination" : "Byter till en specifik gren."
+		},
+
+		{
+		"command" : "git checkout -b <branch>",
+		"explaination" : "Skapar en ny gren och byter till den."
+		},
+
+		{
+		"command" : "git add <fil>",
+		"explaination" : "Lägger till en specifik fil i staging-området."
+		},
+		{
+		"command" : "git add .",
+		"explaination" : "Lägger till alla ändrade och nya filer i staging-området."
+		},
+
+		{
+		"command" : "git branch",
+		"explaination" : "Visar en lista över befintliga grenar."
+		},
+
+		{
+		"command" : "git branch <name>",
+		"explaination" : "Skapar en ny gren med det angivna namnet."
+		},
+
+		{
+		"command" : "git branch -d <branch>",
+		"explaination" : "Tar bort en specifik gren."
+		}
+		{
+		"command" : "git push origin --tags",
+		"explaination" : "Skickar upp referenser med en specifik tag"
+		},
+		{
+		"command" : "git checkout <tag-namn>",
+		"explaination" : "Byter till en specifik tag"
+		},
+		{
+		"command" : "git cherry-pick <commit-hash>",
+		"explaination" : "Applicerar en specifik commit på din nuvvarande branch."
+		},
+		{
+		"command" : "git rebase <branch>",
+		"explaination" : "Tar förändringarna på din nuvvarande branch och håller på dem, sedan uppdateras branchen med ändringar från den angivna branchen, och sedan applicerar ändringarna från din nuvvarande branch."
+		},
+		{
+			"command" : "git bisect start",
+			"explaination" : "Börjar en binär sökning för att hitta en bug-introducerande commit."
+		},
+		{
+			"command" : "git mv [existing-path] [new-path]",
+			"explaination" : "Flyttar eller kopierar en fil eller mapp."
+		},
+		{
+			"command" : "git reflog",
+			"explaination" : "Visar en historik på allting som gjorts i den nuvvarande branchen."
+		},
+		{
+			"command" : "git rebase -i HEAD~5 ",
+			"explaination" : "Interaktiv redigerare som tillåter dig att ändra ordning, redigera eller ta bort de senaste 5 brancherna."
+		},
+		{
+			"command" : "git worktree add ../<folder name> <branch>",
+			"explaination" : "Lägger till en ny worktree i ditt repo."
+		},
+		{
+			"command" : "git filter-branch --tree-filter 'rm -rf hemliga-filer/' HEAD",
+			"explaination" : "Tar bort en fil från hela Git-historiken."
+		},
+		{
+			"command" : "git bundle create backup.bundle --all",
+			"explaination" : "Skapar en backup-fil av hela repositoryt."
+		},
+		{
+			"command" : "git pull",
+			"explaination" : "Hämtar senaste ändringarna från repot."
+		},
+		{
+			"command" : "git config",
+			"explaination" : "Konfigurear Git-inställningar"
+		},
+		{
+			"command" : "git clean",
+			"explaination" : "Tar bort oanvända filer från arbetskatalogen."
+		},
+		{
+			"command" : "git reset",
+			"explaination" : "Återställer ändringar i arbetskatalogen eller staging-området."
+		}
+{
+  "command": "git branch -D <branch>",
+  "explanation": "Tvingar borttagning av en branch."
+}
+{
+  "command": "git stash",
+  "explanation": "Sparar undan ändringar temporärt."
+}
+{
+  "command": "git stash clear",
+  "explanation": "Tar bort alla sparade stashar."
+}
+{
+  "command": "git show <commit-hash>",
+  "explanation": "Visar detaljer om en specifik commit."
+}
+{
+  "command": "git merge <branch>",
+  "explanation": "Slår ihop en annan branch med den aktuella."
+}
+{
+  "command": "git remote -v",
+  "explanation": "Visar länkade fjärr-repositories."
+}
+{
+  "command": "git remote add origin <url>",
+  "explanation": "Länkar ett lokalt repository till en fjärrserver."
+}
+{
+  "command": "git push origin <branch>",
+  "explanation": "Skickar upp ändringar till en specifik branch på fjärr-repot."
+}
+{
+  "command": "git push -u origin <branch>",
+  "explanation": "Skickar upp en lokal branch till fjärrrepositoryt och sätter den som 'upstream', vilket gör att du i framtiden kan använda enklare kommandon som 'git push' eller 'git pull' utan att behöva ange branchens namn."
+}
+{
+  "command": "git fetch",
+  "explanation": "Hämtar uppdateringar från fjärr-repositoryt."
+}
+{
+  "command": "git fetch origin",
+  "explanation": "Hämtar uppdateringar från fjärr-repot men mergar inte."
+}
+{
+  "command": "git remote remove origin",
+  "explanation": "Tar bort kopplingen till fjärr-repositoryt."
+}
+{
+  "command": "git tag",
+  "explanation": "Visar alla taggar i repositoryt."
+}
+{
+  "command": "git tag <tag-namn>",
+  "explanation": "Skapar en ny tagg vid den senaste committen."
+}
+{
+  "command": "git tag -a <tag-namn>",
+  "explanation": "Skapar en annoterad tagg."
+}
+
+	]
+}
