@@ -1,3 +1,79 @@
+{
+	"commands":   [
+
+		{
+		"command" : "git push",
+		"explaination" : "Skickar upp ändringar till det fjärranslutna repositoryt."
+		},
+
+		{
+		"command" : "git commit -m",
+		"explaination" : "Skapar en commit med ett meddelande."
+		},
+
+		{
+		"command" : "git status",
+		"explaination" : "Visar statusen för arbetskatalogen och staging-området."
+		},
+
+		{
+		"command" : "git rm -r",
+		"explaination" : "Tar bort filer eller kataloger från repositoryt."
+		},
+
+		{
+		"command" : "git log",
+		"explaination" : "Visar commit-historiken för repositoryt."
+		},
+
+		{
+		"command" : "git init",
+		"explaination" : "Initierar ett nytt Git-repository."
+		},
+
+		{
+		"command" : "git clone <repo-url>",
+		"explaination" : "Klonar ett befintligt repository från en URL."
+		},
+
+		{
+		"command" : "git checkout",
+		"explaination" : "Byter till en annan commit eller gren."
+		},
+
+		{
+		"command" : "git checkout <branch>",
+		"explaination" : "Byter till en specifik gren."
+		},
+
+		{
+		"command" : "git checkout -b <branch>",
+		"explaination" : "Skapar en ny gren och byter till den."
+		},
+
+		{
+		"command" : "git add <fil>",
+		"explaination" : "Lägger till en specifik fil i staging-området."
+		},
+		{
+		"command" : "git add .",
+		"explaination" : "Lägger till alla ändrade och nya filer i staging-området."
+		},
+
+		{
+		"command" : "git branch",
+		"explaination" : "Visar en lista över befintliga grenar."
+		},
+
+		{
+		"command" : "git branch <name>",
+		"explaination" : "Skapar en ny gren med det angivna namnet."
+		},
+
+		{
+		"command" : "git branch -d <branch>",
+		"explaination" : "Tar bort en specifik gren."
+		}
 		{
 		"command" : "git push origin --tags",
 		"explaination" : "Skickar upp referenser med en specifik tag"
@@ -117,4 +193,7 @@
 {
   "command": "git tag -a <tag-namn>",
   "explanation": "Skapar en annoterad tagg."
+}
+
+	]
 }
