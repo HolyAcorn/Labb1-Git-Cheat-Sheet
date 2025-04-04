@@ -58,4 +58,3 @@
   "command": "git tag -a <tag-namn>",
   "explanation": "Skapar en annoterad tagg."
 }
->>>>>>> origin/andreas-dev
